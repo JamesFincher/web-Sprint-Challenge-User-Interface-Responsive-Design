@@ -294,10 +294,25 @@ header img {
 /*Foo
 /*Footer Styles*/
 footer {
+  /* display: flex; */
   width: 100%;
   background-color: #ff4b00;
 }
+footer nav {
+  padding-top: 2%;
+  padding-bottom: 4%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
 
+  /* justify-content: space-between; */
+  /* align-items: space-around; */
+}
+
+footer a {
+  color: lightgray;
+  text-decoration: none;
+}
 /*About Page Styles*/
 
 /*Responsive Styles*/
